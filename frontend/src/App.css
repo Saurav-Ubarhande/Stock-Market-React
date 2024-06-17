@@ -1,0 +1,657 @@
+
+
+.nav-pills .nav-link.active {
+  background-color:  rgb(11, 11, 194);
+  color: white; /* Optional: change text color */
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.navbar-nav{
+width: 21%;
+}
+
+.nav-link {
+  color: lightblue;
+}
+
+.nav-link.active {
+  color: white; /* Set active navigation text color */
+}
+
+.navbar{
+  background-color:  rgb(11, 11, 194);
+
+  color: lightblue;
+}
+.navbar-brand{
+  color: white;
+  margin-left: 3%;
+}
+
+.nav-item{
+  padding-right: 3%;
+}
+
+
+
+
+
+.search-bar {
+  height: 40px;
+  display: flex;
+  width: 80%; 
+  max-width: 400px; 
+  margin: auto;
+  margin-top: 25px;
+}
+
+
+
+
+ .search-bar {
+ width: 100%;
+ height: 100%;
+ font-family: var(--body-font);
+ font-weight: 500;
+ padding: 0 0 0 10px;
+ cursor: none;
+ padding-left: 20px;
+
+ border: 3px solid rgb(11, 11, 194);
+ border-radius: 20px 20px 20px 20px;
+ background-size: 14px;
+ background-repeat: no-repeat;
+ background-position: 16p  x 48%;
+ color: var(--theme-color);
+ &::placeholder {
+  font-family: var(--body-font);
+  color: var(--inactive-color);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+ }
+}
+
+input{
+border: hidden;  
+width: 80%;
+}
+ :focus{
+  outline: none !important;
+ }
+
+.search-bar .close-button{
+  width: 55px;
+  height: 40px;
+ 
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  border-radius: 0 20px 20px 0;
+  background-color: white;
+  border: 3px solid blue;
+  border-left: none;
+}
+
+.tabs{
+  width: 100%;
+  margin-top: 2%;
+}
+
+.tab {
+  overflow: hidden; 
+  /* display: none; */
+  /* background-color: #f9fbfb; */
+
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 13px;
+  width: 25%;
+}
+
+.tab button:hover {
+  background-color: #f3f2f2;
+}
+
+
+/* .tab button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+} */
+
+.tab button.active {
+  border-bottom: 1px solid rgb(12, 12, 131);
+  color: rgb(12, 12, 131);
+}
+
+
+.tabcontent {
+  /* display: none; */
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.alltags{
+  width: 100%;
+}
+
+
+.stockheading{
+  font-size: 200%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.suggestions{
+  width: 400px;
+  margin: auto;
+}
+
+.stocksearch{
+  margin: auto;
+  width: 75%;
+}
+
+.companyTicker{
+margin-bottom: 0%;
+}
+
+.companyName{
+  font-size: 140%;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#636262;
+  margin-bottom: 2%;
+}
+
+.exchange{
+color: #636262;
+font-size: small;
+margin-top: -2%;
+}
+
+.stockname{
+  display: flex;
+}
+
+.logo{
+  width: 25%;
+}
+
+.currentPrice{
+font-size: 200%;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 0%;
+}
+
+.change{
+  font-size: 125%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0%;
+  margin-top: -2%;
+}
+
+.currentTime{
+font-size: 83%;
+}
+
+.container1{
+  margin-top: 3%;
+}
+
+.container1 .row .col{
+  width: 33%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.col{
+  text-align: center;
+}
+
+.arrow{
+width: 5%;
+}
+
+.currentPrice{
+  font-weight: bold;
+  font-size: xx-large;
+  }
+  
+  .market-status {
+    text-align: center;
+  }
+  
+  .market-status p {
+    color: green; /* Default color for open market */
+  }
+  
+  .market-status p.closed {
+    color: red; /* Color for closed market */
+  }
+  
+.marketStatus{
+font-size: 80%;
+font-weight: 700;
+margin-top: 3%;
+}
+
+.tabs{
+  width: 100%;
+}
+
+.summary{
+  display: flex;
+}
+
+.summaryInfo{
+ flex: 1; 
+}
+
+.summaryChart{
+  flex: 1;
+}
+
+
+
+.Summary-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 0px;
+  margin-bottom: 12vh;
+}
+
+.PricesAbout-Container{
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+  margin-bottom: 20%;
+  width: 50%;
+  font-weight: 700;
+  margin-top: 20%;
+}
+
+#summary-chart{
+  width: 50%;
+}
+
+.Prices-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  font-size: 80%;
+  margin-top: 4%;
+  margin-bottom: 7%;
+}
+
+.About-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.AboutCompany{
+   text-decoration: underline;
+    font-size: 120%;
+     font-weight: 500;
+      margin-bottom: 6%;
+}
+
+.Prices, .About{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5vh;
+  margin-bottom: 1%;
+}
+
+.peers{
+  display: flex;
+  gap: 5px;
+  text-align: center;
+}
+
+.newsCard{
+background-color: #faf9f9;
+}
+
+/* .newsImage{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-left: 3%;
+  border-radius: 50px;
+} */
+
+.card-img-top{
+  border-radius: 5%;
+  margin: 5%;
+}
+.newsHeadline{
+font-size: 80%;
+}
+
+.modal-main{
+width: 150%;
+}
+
+.modal-header{
+  padding: 0;
+}
+
+.modal-content .modal-body{
+  padding: 0;
+}
+
+.modal-news-source{
+  font-weight: bold;
+font-size: 150%;
+margin-bottom: 0%;
+}
+
+.modal-news-datetime{
+font-size: small;
+padding-top: 0%;
+margin-bottom: 0%;
+}
+
+.modal-news-header{
+  font-weight: bold;
+  font-size: large;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  margin-bottom: 0%;
+}
+
+.modal-news-summary{
+font-size: small;
+padding-left: 3.5%;
+padding-right: 3.5%; 
+margin-bottom: 0%;
+}
+
+.modal-more-details{
+  font-size: small;
+  padding-left: 3.5%;
+  padding-right: 3.5%; 
+  color: #959393;
+}
+
+.twitter{
+  width: 5%;
+}
+
+.facebook{
+  width: 6%;
+}
+
+.share-section {
+  border: 1px solid #ccc;
+  margin: 3%;
+  margin-top: 20px;
+}
+
+.share-section p {
+  margin: 3%;
+  margin-bottom: 2%;
+  font-size: small;
+}
+
+.share-section img {
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  margin: 2%;
+}
+
+.centered-table {
+  margin: 0 auto; /* Center the table horizontally */
+  border-collapse: collapse; /* Collapse border spacing */
+  width: 50%;
+}
+
+.centered-table th,
+.centered-table td {
+  border-bottom: 1px solid #ccc; /* Add gray line below each row */
+  padding: 8px; /* Add padding to cells */
+  text-align: center;
+}
+
+.centered-table th {
+  text-align: center; /* Align header text to left */
+}
+
+.chart3{
+  padding-top: 3%;
+  padding-right: 2%;
+}
+
+.chart4{
+  padding-top: 3%;
+  padding-right: 2%;
+}
+
+.footer{
+  font-size: 85%;
+  bottom: 0px;
+}
+
+
+.suggestions {
+  
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000; /* Ensure the suggestions appear above other elements */
+}
+
+.suggestions li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Define the styles for the star icon */
+.star-icon {
+  cursor: pointer;
+  margin-left: 5px; /* Adjust margin as needed */
+}
+
+/* Define the styles for the unselected star icon */
+  .star-icon.white {
+    color: black;
+  }
+
+/* Define the styles for the selected star icon */
+.star-icon.yellow {
+  color: rgb(245, 238, 35);
+  border: none; /* Remove border for selected star */
+}
+
+.buySellTicker{
+  margin-left: 4%;
+  }
+  
+  .newsModalHeader{
+    margin-left:4%;
+    margin-right: 4%;
+  }
+
+.Watchlist-container{
+  margin: auto;
+  width: 75%;
+  padding-top: 3%;
+}
+
+.Watchlist{
+margin-bottom: 4%;
+}
+
+.portfolio{
+  margin: auto;
+  width: 75%;
+  padding-top: 3%;
+  color: black;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.loader {
+  margin-left: 400px; /* Adjust the margin to create space between input bar and loader */
+}
+
+.spinner-border{
+  margin-left: 48%;
+  color: rgb(11, 11, 194);
+}
+
+@media (max-width: 768px) {
+  .search-bar {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+
+
+  .stocksearch{
+width: 85%;
+margin-top: 7%;
+  }
+
+  .container1{
+    margin-top: 10%;
+  }
+
+  .companyName{
+    font-size: 110%;
+  }
+
+  .exchange{
+    font-size: 75%;
+  }
+
+  .logo {
+    width: 50px; /* Increase width to 80% for screens with maximum width 768px (mobile layout) */
+  }
+
+  .currentPrice {
+    font-size: 160%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0%;
+    margin-top: -4%;
+  }
+
+  .change{
+    font-size: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0%;
+    margin-top: -7%;
+  }
+  
+  .currentTime{
+  font-size: 83%;
+  width: 120%;
+  margin-left: -10%;
+  }
+
+  .summary {
+    flex-direction: column; /* Align items vertically in mobile layout */
+  }
+
+  .Prices-container{
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 6%;
+  }
+
+  .Prices, .About{
+    margin-bottom: 2.5%;
+  }
+
+  .peers{
+    margin-top: 2%;
+  }
+
+  .newsImage{
+    width: 100%; /* Set width to 100% for both columns */
+   size: 90%;
+  }
+  .card-img-top{
+    margin: 0;
+    margin-top: 5%;
+    max-width: 90%; /* Set the maximum width of the image */
+    height: auto;
+  }
+  .newsHeadline {
+    width: 100%; /* Set width to 100% for both columns */
+    padding: 0; /* Remove padding */
+  }
+
+
+  .centered-table{
+    width: 100%;
+  }
+
+  .chart3{
+    width: 100%;
+  }
+
+  .chart4{
+    width: 100%;
+  }
+
+  .Watchlist-container{
+    margin: auto;
+    width: 90%;
+    padding-top: 3%;
+  }
+
+  .portfolio{
+    width: 90%;
+    margin-top: 5%;
+  }
+
+  .nav-item{
+    width:90%;
+    align-items: center;
+    padding-left: 9%;
+  }
+
+  .nav-link{
+    width: 100%;
+    padding-left: 4%;
+  }
+  .navbar-nav{
+    width: 100%;
+  }
+
+  .spinner-border{
+    margin-left: 45%;
+    color: rgb(11, 11, 194);
+  }
+  
+}
