@@ -40,4 +40,4 @@ This React-based Stock Market App is designed to provide users with comprehensiv
 **APIs:** Finnhub Stock API, Polygon.io API<br/>
 **Additional Tools and Libraries:** Axios for HTTP requests, Chart.js for additional charting options, and Bootstrap for UI styling.<br/>
 
-**Live Project:** [React Stock Market App](https://react-frontend-latest-3856.wl.r.appspot.com/search/home)
+**Live Project:** [React Stock Market App](https://assignment-3-419020.wl.r.appspot.com)
